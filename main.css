@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #373736;
+    border: solid green 1px;
+
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*Här börjar min Header*/
+
+.container-1{
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.header-img{
+    margin-top: -20px;
+    background-image: url(./bilder/header.png.png);
+    height: 850px;
+    width: 100%;
+    background-position-x: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+ 
+}
+.titel-1 {
+   font-weight: 700;
+   position: absolute;
+   top: 50px;
+   left: 50%;
+   transform: translate(-50%);
+
+
+}
+
+/* .container-1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    top: 0px;
+}
+ */
+.titel-2{
+    font-weight:800;
+    position: absolute;
+    left: 55%;
+    top: 780px;
+    font-size: 45px;
+}
+
+strong{
+    font-weight:700;
+}
+
+.paragraf{
+    position: relative;
+    margin-top: 60px;
+    font-size: 25px;
+    opacity: 0.7;
+    
+
+}
+.span-1{
+    position: absolute;
+    left: 25%;   
+}
+
+.span-2{
+    position: absolute;
+    left: 52.5%;
+    margin-top: 25px;   
+}
+
+/*Här börjar min main*/
+main{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 230px;
+    font-size: 19px;
+}
+
+.del-1{
+    flex-direction: column;
+    width: 395px;
+    line-height: 1.2em;
+
+}
+
+.del-1 p{
+    margin: 35px 0;
+    opacity: 0.7;
+}
+
+.main-img{
+    width: 570px;
+    margin-top: -150px;
+    
+
+}
+
+video{
+    width: 1200px;
+    margin-top: -20px;
+}
+
+/*Här börjar del-2 av min main*/
+
+
+
+
+.del-2{
+    display: flex;
+
+}
+
+.article-img-1{
+   width: 2500px;
+    margin-top: -50px;
+    
+    
+}
+
+.del-2-text{
+
+    /*text-align: right;*/
+    margin-top: 120px;
+    margin-right: 105px;
+    opacity: 0.7;
+    line-height: 1.2em;
+    font-size: 19px;
+}
+
+    
+   .del-3{
+    margin: 0 200px;
+    text-align: center;
+    opacity: 0.7;
+    line-height: 1.2em;
+    font-size: 19px;
+
+   }
+
+
+
+
+
+

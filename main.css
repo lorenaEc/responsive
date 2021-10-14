@@ -75,7 +75,7 @@ strong{
 main{
     display: flex;
     justify-content: flex-end;
-    margin-top: 190px;
+    margin-top: 300px;
     font-size: 19px;
 }
 
@@ -100,7 +100,7 @@ main{
 
 .main-img{
     width: 590px;
-    margin-top: -120px;
+    margin-top: -90px;
 
     margin-left: -30px;
     
